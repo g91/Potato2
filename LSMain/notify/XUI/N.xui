@@ -1,0 +1,25 @@
+<XuiCanvas version="000c">
+<Properties>
+<Id>XuiCanvas</Id>
+<Width>640.000000</Width>
+<Height>480.000000</Height>
+</Properties>
+<XamScene>
+<Properties>
+<Id>XuiScene1</Id>
+<Width>460.000000</Width>
+<Height>87.000000</Height>
+<ClassOverride>NotifyPopupScene</ClassOverride>
+<TransFrom>TransFrom</TransFrom>
+<TransTo>TransTo</TransTo>
+</Properties>
+<XamControl>
+<Properties>
+<Id>PopupControl</Id>
+<Width>460.000000</Width>
+<Height>87.000000</Height>
+<Visual>LiquidSky</Visual>
+</Properties>
+</XamControl>
+</XamScene>
+</XuiCanvas>

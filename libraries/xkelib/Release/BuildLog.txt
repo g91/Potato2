@@ -1,0 +1,29 @@
+﻿Build started 7/29/2024 3:42:11 AM.
+     1>Project "C:\Users\Evil\Desktop\Potato\libraries\xkelib\xkelib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\xkelib.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\Users\Evil\Desktop\Potato\libraries\xkelib\Release\xkelib.lib' is denied.
+       InitializeBuildStatus:
+         Creating "Release\xkelib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         Description: creating import libs
+         lib /def:xam\xamext20871.0.def /MACHINE:PPCBE /OUT:xamext.lib
+         lib /def:kernel\kernelext20871.0.def /MACHINE:PPCBE /OUT:kernelext.lib
+         
+         :VCEnd
+         Microsoft (R) Library Manager Version 10.00.11886.00
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+            Creating library xamext.lib and object xamext.exp
+         Microsoft (R) Library Manager Version 10.00.11886.00
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+            Creating library kernelext.lib and object kernelext.exp
+       FinalizeBuildStatus:
+         Deleting file "Release\xkelib.unsuccessfulbuild".
+         Touching "Release\xkelib.lastbuildstate".
+     1>Done Building Project "C:\Users\Evil\Desktop\Potato\libraries\xkelib\xkelib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

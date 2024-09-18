@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xex>
+  <format>
+    <compressed/>
+  </format>
+ 
+  <mediatypes>
+    <allpackages/>
+  </mediatypes>
+ 
+  <gameregion>
+    <all/>
+  </gameregion>
+ 
+  <sysdll/>
+ 
+  <version major="0x02" minor="0x00" build="0x4488" qfe="0x00"/>.
+  
+  
+  <section file="FFFE07D1.bin" name="TH" memory="RO"/>
+  <section file="KernelHeader.bin" name="KH" memory="RO"/>
+  <section file="XamHeader.bin" name="XH" memory="RO"/>
+  <section file="HV.bin" name="HV" memory="RO"/>
+  <section file="ConsoleTypes.bin" name="CT" memory="RO"/>
+ 
+  <mfgmode mode = "aware"/>
+ 
+  <baseaddr addr = "0x90E00000"/>
+  
+</xex>
